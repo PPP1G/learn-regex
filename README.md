@@ -1,12 +1,9 @@
-<a href="https://www.buymeacoffee.com/ziishaned" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 <p align="center">
     <br/>
     <a href="https://github.com/ziishaned/learn-regex">	
         <img src="https://i.imgur.com/bYwl7Vf.png" alt="Learn Regex">
     </a>
 </p>
-
 
 ## Translations:
 
@@ -25,6 +22,8 @@
 * [Русский](translations/README-ru.md)
 * [Tiếng Việt](translations/README-vn.md)
 * [فارسی](translations/README-fa.md)
+* [עברית](translations/README-he.md)
+
 
 ## What is Regular Expression?
 
@@ -38,7 +37,7 @@
 
 A regular expression is a pattern that is matched against a subject string from
 left to right. Regular expressions are used to replace text within a string, 
-validating forms, extracting a substring from a string based on a pattern match, 
+validate forms, extract a substring from a string based on a pattern match, 
 and so much more. The term "regular expression" is a mouthful, so you will usually
 find the term abbreviated to "regex" or "regexp". 
 
@@ -61,7 +60,7 @@ letter and also it is too short.
 
 - [Basic Matchers](#1-basic-matchers)
 - [Meta Characters](#2-meta-characters)
-  - [The Full Stop](#21-the-full-stops)
+  - [The Full Stop](#21-the-full-stop)
   - [Character Sets](#22-character-sets)
     - [Negated Character Sets](#221-negated-character-sets)
   - [Repetitions](#23-repetitions)
@@ -421,7 +420,7 @@ regular expressions:
 
 Lookbehinds and lookaheads (also called lookarounds) are specific types of
 ***non-capturing groups*** (used to match a pattern but without including it in the matching
-list). Lookarounds are used when we a pattern must be
+list). Lookarounds are used when a pattern must be
 preceded or followed by another pattern. For example, imagine we want to get all
 numbers that are preceded by the `$` character from the string
 `$4.44 and $10.88`. We will use the following regular expression `(?<=\$)[0-9\.]*`
